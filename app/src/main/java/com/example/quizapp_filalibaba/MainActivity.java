@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //Step 2: Recuperation des ids
-        etLogin = findViewById(R.id.etMail);
+        etLogin =  findViewById(R.id.etMail);
         etPassword =  findViewById(R.id.etPassword);
         bLogin =  findViewById(R.id.bLogin);
         tvRegister = findViewById(R.id.tvRegister);
