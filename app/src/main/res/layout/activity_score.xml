@@ -18,6 +18,7 @@
 
 
     <TextView
+        android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Votre score est :"
@@ -36,11 +37,11 @@
             android:indeterminateOnly="false"
             android:progressDrawable="@drawable/circle"
             android:layout_centerInParent="true"
-
+            android:text=""
             />
         <!-- android : progress="99"  -->
         <TextView
-            android:id="@+id/tv"
+            android:id="@+id/t"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="24sp"

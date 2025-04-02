@@ -29,7 +29,7 @@ public class register extends AppCompatActivity {
         bRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String mail=name.getText().toString();
+                String mail=adresse.getText().toString();
                 String password=etPassword1.getText().toString();
                 String password1=etPassword2.getText().toString();
                 if(TextUtils.isEmpty(mail)){
