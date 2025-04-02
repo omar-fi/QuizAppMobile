@@ -24,6 +24,7 @@
         android:inputType="textEmailAddress"
         android:hint="entrer votre email"
         android:textColor="@color/black"
+        android:drawableLeft="@drawable/mail"
        />
 
     <EditText
@@ -33,17 +34,18 @@
         android:ems="10"
         android:inputType="textPassword"
         android:layout_marginTop="20dp"
-        android:hint="password"/>
+        android:hint="password"
+        android:drawableLeft="@drawable/lock"/>
+
 
     <Button
         android:id="@+id/bLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign in"
-        android:background="@color/black"
-        android:textColor="@color/black"
         android:layout_marginTop="20dp"
-        />
+        android:text="Sign in"
+        android:textStyle="bold" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

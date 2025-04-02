@@ -37,7 +37,7 @@ public class quiz4 extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Merci de choisir une réponse S.V.P !",Toast.LENGTH_SHORT).show();
                 }
                 else {
-                    Toast.makeText(getApplicationContext(),rb.getText().toString(),Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(getApplicationContext(),rb.getText().toString(),Toast.LENGTH_SHORT).show();
                     if(rb.getText().toString().equals(RepCorrect)){
                         score+=1;
                         Toast.makeText(getApplicationContext(),score+"",Toast.LENGTH_SHORT).show();

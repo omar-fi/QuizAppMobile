@@ -26,7 +26,8 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:hint="Name"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/person"/>
     <EditText
         android:id="@+id/adresse"
         android:layout_width="match_parent"
@@ -35,7 +36,7 @@
         android:inputType="textEmailAddress"
         android:hint="adress"
         android:layout_marginTop="20dp"
-        android:drawableLeft="@drawable/baseline_attach_email_24"/>
+        android:drawableLeft="@drawable/mail"/>
 
     <EditText
         android:id="@+id/pswd"
@@ -44,7 +45,8 @@
         android:ems="10"
         android:inputType="textPassword"
         android:layout_marginTop="20dp"
-        android:hint="password"/>
+        android:hint="password"
+        android:drawableLeft="@drawable/lock"/>
 
     <EditText
         android:id="@+id/pswd1"
@@ -53,7 +55,8 @@
         android:ems="10"
         android:inputType="textPassword"
         android:layout_marginTop="20dp"
-        android:hint="Confirmation password"/>
+        android:hint="Confirmation password"
+        android:drawableLeft="@drawable/lock"/>
 
     <Button
         android:id="@+id/button2"
