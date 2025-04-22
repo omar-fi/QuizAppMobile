@@ -7,12 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".quiz1"
     android:orientation="vertical"
-    android:layout_margin="20dp">
+    android:background="@drawable/bg5">
     <TextView
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Quiz5"
+        android:textColor="@color/white"
         android:gravity="center"
         android:textSize="20dp"
         android:textStyle="bold"/>
@@ -21,14 +22,15 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/q5"
+        android:src="@drawable/qq5"
         android:layout_marginBottom="1dp"/>
 
     <TextView
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="En conduisant,je peux utiliser mon portable pour écrire un texto ou composer un numero:"
+        android:text=" Qu'est-ce que le machine learning (apprentissage automatique) ?"
         android:gravity="center"
         android:textSize="19dp"
         android:textStyle="bold"/>
@@ -40,17 +42,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Oui"/>
+        android:textColor="@color/white"
+        android:text="A) Une méthode d'analyse de données qui permet à un système de penser de manière autonome"/>
     <RadioButton
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Non"/>
+        android:text="B) Un programme qui apprend à résoudre des problèmes en recevant de nouveaux algorithmes"/>
+        <RadioButton
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" C) Une méthode qui permet à une machine de programmer des humains"/>
+
+        <RadioButton
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) Un type d'algorithme qui calcule uniquement des opérations mathématiques"/>
+
      </RadioGroup>
     <Button
         android:id="@+id/bNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
         android:layout_marginTop="60dp"
         android:text="Next" />
 
@@ -65,7 +80,7 @@
             android:layout_height="29dp"
             android:layout_marginTop="40dp"
             android:gravity="center"
-            app:srcCompat="@drawable/logoo"
+            app:srcCompat="@drawable/reg"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="56dp" />
     </LinearLayout>

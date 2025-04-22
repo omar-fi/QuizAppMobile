@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "605936740871",
+    "project_id": "quizappfilalibaba",
+    "storage_bucket": "quizappfilalibaba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605936740871:android:70f581dd7a2758aeb698a2",
+        "android_client_info": {
+          "package_name": "com.example.quizapp_filalibaba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV70dfDofHaRl50HS1pbTMtu4E0s2tSfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

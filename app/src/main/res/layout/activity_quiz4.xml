@@ -22,14 +22,14 @@
         android:layout_width="match_parent"
         android:layout_height="251dp"
         android:layout_marginBottom="2dp"
-        android:src="@drawable/q4" />
+        android:src="@drawable/qq4" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        android:text="En tant qu'automobiliste, vous devez etre plus vigilant lorsque:"
+        android:text="Quel domaine est souvent associé à l'IA dans le domaine médical ?"
         android:gravity="center"
         android:textSize="19dp"
         android:textStyle="bold"/>
@@ -40,11 +40,22 @@
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Le trameway est arrete"/>
+        android:text="A) Robotique de précision"/>
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Le trameway circule"/>
+        android:text="B) Diagnostic automatisé"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) Rédaction de prescriptions"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) Soins émotionnels"/>
+
 
 
     </RadioGroup>
@@ -66,7 +77,7 @@
             android:layout_height="34dp"
             android:layout_marginTop="40dp"
             android:gravity="center"
-            app:srcCompat="@drawable/logoo"
+            app:srcCompat="@drawable/reg"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="56dp" />
     </LinearLayout>

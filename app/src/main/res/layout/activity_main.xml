@@ -4,57 +4,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:layout_margin="30dp"
+    android:background="@color/black"
     >
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="384dp"
-        app:srcCompat="@drawable/logo" />
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/netflix" />
 
     <EditText
         android:id="@+id/etMail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:hint="entrer votre email"
-        android:textColor="@color/black"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
         android:drawableLeft="@drawable/mail"
-       />
+        android:ems="10"
+        android:hint="entrer votre email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black" />
 
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
         android:hint="password"
         android:drawableLeft="@drawable/lock"/>
 
 
     <Button
-        android:id="@+id/bLogin"
+        android:id="@+id/blogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="login"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/rouge"
+        android:background="@color/rouge"/>
+
+    <TextView
+        android:id="@+id/tvRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Sign in"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="register "
         android:gravity="center"
+        android:text="register "
+        android:textColor="@color/white"
         android:textSize="20dp"
-        android:textStyle="bold"
-        android:id="@+id/tvRegister"
-        android:layout_marginTop="20dp"/>
+        android:textStyle="bold" />
 
 </LinearLayout>
 

@@ -19,7 +19,7 @@ public class quiz5 extends AppCompatActivity {
     RadioButton rb;
     Button bNext;
     int score;
-    String RepCorrect="Non";
+    String RepCorrect="A) Une méthode d'analyse de données qui permet à un système de \"penser\" de manière autonome";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

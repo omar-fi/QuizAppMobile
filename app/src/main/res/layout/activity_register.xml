@@ -13,21 +13,23 @@
         android:id="@+id/img"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/logoo"
+        app:srcCompat="@drawable/reg"
         tools:layout_editor_absoluteX="105dp"
         tools:layout_editor_absoluteY="56dp"
         android:layout_marginTop="20dp"
         android:gravity="center"/>
 
+
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/nom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:hint="Name"
+        android:hint="adress"
         android:layout_marginTop="20dp"
-        android:drawableLeft="@drawable/person"/>
+        android:drawableLeft="@drawable/mail"/>
+
     <EditText
         android:id="@+id/adresse"
         android:layout_width="match_parent"
@@ -62,7 +64,7 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Enregistrer"
         android:background="@color/black"
         android:layout_marginTop="20dp"/>
 

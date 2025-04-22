@@ -8,14 +8,7 @@
     tools:context=".score"
     android:orientation="vertical"
     android:gravity="center"
-    android:layout_margin="25dp">
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logoo" />
-
-
+    android:background="@drawable/sc">
 
     <TextView
         android:id="@+id/tv"
@@ -24,7 +17,8 @@
         android:text="Votre score est :"
         android:textSize="18sp"
         android:layout_marginTop="16dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textColor="@color/white"/>
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -47,7 +41,8 @@
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_centerInParent="true"
-            android:layout_alignParentTop="true" />
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white"/>
         <!--  android:text="99" -->
     </RelativeLayout>
 

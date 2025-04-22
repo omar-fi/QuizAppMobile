@@ -19,7 +19,7 @@ public class quiz2 extends AppCompatActivity {
     RadioButton rb;
     Button bNext;
     int score;
-    String RepCorrect="A droite";
+    String RepCorrect=" B) Test de Turing";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +40,7 @@ public class quiz2 extends AppCompatActivity {
                     //Toast.makeText(getApplicationContext(),rb.getText().toString(),Toast.LENGTH_SHORT).show();
                     if(rb.getText().toString().equals(RepCorrect)){
                         score+=1;
+                        Toast.makeText(getApplicationContext(),"Merci de choisir une réponse S.V.P !",Toast.LENGTH_SHORT).show();
                         //Toast.makeText(getApplicationContext(),score+"",Toast.LENGTH_SHORT).show();
                     }
                     Intent intent=new Intent(quiz2.this,quiz3.class);

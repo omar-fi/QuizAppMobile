@@ -19,7 +19,7 @@ public class quiz4 extends AppCompatActivity {
     RadioButton rb;
     Button bNext;
     int score;
-    String RepCorrect="Le tramway est arrêté";
+    String RepCorrect="B) Diagnostic automatisé";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -42,9 +42,8 @@ public class score extends AppCompatActivity {
         bTry.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(score.this,quiz1.class));
+                startActivity(new Intent(score.this,MapsActivity.class));
             }
         });
-
     }
 }

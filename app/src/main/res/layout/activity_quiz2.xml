@@ -21,14 +21,14 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/q2"
+        android:src="@drawable/qq2"
         android:layout_marginBottom="2dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-10dp"
-        android:text="Le panneau de danger indique une succession de virage dont le 1er est:"
+        android:layout_marginTop="10dp"
+        android:text="Quel est le test proposé par Alan Turing pour évaluer l'intelligence d'une machine ?"
         android:gravity="center"
         android:textSize="19dp"
         android:textStyle="bold"
@@ -41,19 +41,29 @@
         android:id="@+id/rb1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A droite"/>
+        android:text="A) Test de capacité de calcul"/>
     <RadioButton
         android:id="@+id/rb2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A gauche"/>
+        android:text="B) Test de Turing"/>
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) Test de reconnaissance de formes"/>
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) Test de logique formelle"/>
     </RadioGroup>
     <Button
         android:id="@+id/bNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Next"
-        android:background="@color/white"
         android:layout_marginTop="20dp"/>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -66,7 +76,7 @@
             android:layout_height="58dp"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            app:srcCompat="@drawable/logoo"
+            app:srcCompat="@drawable/reg"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="56dp" />
     </LinearLayout>

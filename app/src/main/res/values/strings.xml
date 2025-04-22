@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Quizapp_filalibaba</string>
+
+    <string name="my_map_api_key">AIzaSyCC7D3VixvqL-couYoQ-e5lnMhsiFQ9fEU</string>
 </resources>

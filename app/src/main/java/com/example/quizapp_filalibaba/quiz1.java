@@ -21,7 +21,7 @@ public class quiz1 extends AppCompatActivity {
     RadioButton rb;
     Button bNext;
     int score=0;
-    String RepCorrect="Non";
+    String RepCorrect="A) Alan Turing";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

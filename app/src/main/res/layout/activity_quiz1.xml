@@ -17,23 +17,17 @@
         android:textSize="20dp"
         android:textStyle="bold"/>
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="button" />
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/q1"
+        android:src="@drawable/qq1"
         android:layout_marginBottom="20dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="A cette intersection, je laisse la priorite a droite"
+        android:text="Qui a créé le concept de l'intelligence artificielle ?"
         android:gravity="center"
         android:textSize="19dp"
         android:textStyle="bold"/>
@@ -45,33 +39,45 @@
          android:id="@+id/rb1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Oui"/>
+        android:text="A) Alan Turing"/>
      <RadioButton
          android:id="@+id/rb2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Non"/>
+         android:text="B) Elon Musk"/>
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) Mark Zuckerberg" />
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) Steve Jobs"/>
     </RadioGroup>
     <Button
         android:id="@+id/bNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Next"
-        android:background="@color/white"
         android:layout_marginTop="20dp"/>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center">
+
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="160dp"
             android:layout_height="40dp"
             android:layout_marginTop="40dp"
             android:gravity="center"
-            app:srcCompat="@drawable/logoo"
+            app:srcCompat="@drawable/reg"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="56dp" />
-</LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>

@@ -19,7 +19,7 @@ public class quiz3 extends AppCompatActivity {
     RadioButton rb;
     Button bNext;
     int score;
-    String RepCorrect="Non";
+    String RepCorrect="B) L'humain est capable de comprendre et d'apprendre dans des contextes non prévus, l'IA se limite à ce pour quoi elle a été programmée";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
