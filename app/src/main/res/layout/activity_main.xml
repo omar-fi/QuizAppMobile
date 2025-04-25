@@ -7,8 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@color/black"
-    >
+    android:background="@color/black">
 
     <ImageView
         android:id="@+id/imageView"
@@ -18,37 +17,61 @@
         app:srcCompat="@drawable/netflix" />
 
     <EditText
+        android:layout_marginLeft="59dp"
         android:id="@+id/etMail"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:background="@color/white"
         android:drawableLeft="@drawable/mail"
         android:ems="10"
         android:hint="entrer votre email"
         android:inputType="textEmailAddress"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
 
-    <EditText
-        android:id="@+id/etPassword"
+    <!-- Bloc pour le champ mot de passe avec œil -->
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:layout_marginTop="40dp"
-        android:background="@color/white"
-        android:hint="password"
-        android:drawableLeft="@drawable/lock"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
 
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            android:hint="password"
+            android:background="@color/white"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/lock"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:paddingEnd="50dp"/>
+
+        <ImageView
+            android:id="@+id/togglePassword"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignEnd="@id/etPassword"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/ic_eye_closed"
+            android:contentDescription="Afficher ou masquer le mot de passe" />
+    </RelativeLayout>
 
     <Button
+        android:layout_marginLeft="110dp"
         android:id="@+id/blogin"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:hint="login"
         android:layout_marginTop="20dp"
         android:textColor="@color/rouge"
-        android:background="@color/rouge"/>
+        android:backgroundTint="@color/rouge"/>
 
     <TextView
         android:id="@+id/tvRegister"
@@ -62,5 +85,3 @@
         android:textStyle="bold" />
 
 </LinearLayout>
-
-

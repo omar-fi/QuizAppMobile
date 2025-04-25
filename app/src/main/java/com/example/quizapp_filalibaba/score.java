@@ -13,6 +13,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class score extends AppCompatActivity {
     Button bLogout, bTry;
     ProgressBar progressBar;
@@ -39,6 +43,12 @@ public class score extends AppCompatActivity {
                 finish();
             }
         });
+
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if (user != null) {
+            String email = user.getEmail();
+            SupabaaseClient.envoyerScore(email, score);
+        }
         bTry.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

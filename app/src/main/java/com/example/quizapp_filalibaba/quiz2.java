@@ -19,7 +19,7 @@ public class quiz2 extends AppCompatActivity {
     RadioButton rb;
     Button bNext;
     int score;
-    String RepCorrect=" B) Test de Turing";
+    String RepCorrect="A) The Umbrella Academy";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

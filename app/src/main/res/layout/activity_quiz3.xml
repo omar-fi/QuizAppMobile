@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".quiz1"
     android:orientation="vertical"
-    android:layout_margin="20dp">
+    android:background="@color/black">
     <TextView
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
@@ -15,20 +15,22 @@
         android:text="Quiz3"
         android:gravity="center"
         android:textSize="20dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/qq3"
+        android:src="@drawable/n3"
         android:layout_marginBottom="20dp"/>
 
     <TextView
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
-        android:text="Quelle est la principale différence entre l'intelligence artificielle et l'intelligence humaine ?"
+        android:text="Quel est le nom de la série Netflix inspirée d’un jeu d’échecs et sortie en 2020 ?"
         android:gravity="center"
         android:textSize="19dp"
         android:textStyle="bold"/>
@@ -37,36 +39,42 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <RadioButton
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="A) L'IA peut ressentir des émotions, alors que l'humain ne peut pas"/>
+        android:text="A) The Queen"/>
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="B) L'humain est capable de comprendre et d'apprendre dans des contextes non prévus, l'IA se limite à ce pour quoi elle a été programmée"/>
+        android:textColor="@color/white"
+        android:text="B) The Queen’s Gambit"/>
 
         <RadioButton
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="C) L'IA est plus créative que l'humain"/>
+            android:text="C) The Crown"/>
         <RadioButton
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="D) L'humain peut exécuter des calculs beaucoup plus rapidement que l'IA"/>
+            android:text="D) The Chess Game"/>
     </RadioGroup>
     <Button
         android:id="@+id/bNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Next"
+        android:backgroundTint="@color/rouge"
         android:layout_marginTop="20dp"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+      >
 
         <ImageView
             android:id="@+id/imageView2"
@@ -74,7 +82,7 @@
             android:layout_height="39dp"
             android:layout_marginTop="40dp"
             android:gravity="center"
-            app:srcCompat="@drawable/reg"
+            app:srcCompat="@drawable/netflix"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="56dp" />
     </LinearLayout>

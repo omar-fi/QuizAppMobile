@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".quiz1"
     android:orientation="vertical"
-    android:background="@drawable/bg5">
+    android:background="@color/black">
     <TextView
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/qq5"
+        android:src="@drawable/n5"
         android:layout_marginBottom="1dp"/>
 
     <TextView
@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text=" Qu'est-ce que le machine learning (apprentissage automatique) ?"
+        android:text=" En quelle année Netflix a-t-il lancé son service de streaming ?"
         android:gravity="center"
         android:textSize="19dp"
         android:textStyle="bold"/>
@@ -43,23 +43,23 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="A) Une méthode d'analyse de données qui permet à un système de penser de manière autonome"/>
+        android:text="A) 1997"/>
     <RadioButton
         android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="B) Un programme qui apprend à résoudre des problèmes en recevant de nouveaux algorithmes"/>
+        android:text="B)2005"/>
         <RadioButton
             android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" C) Une méthode qui permet à une machine de programmer des humains"/>
+            android:text=" C) 2007"/>
 
         <RadioButton
             android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="D) Un type d'algorithme qui calcule uniquement des opérations mathématiques"/>
+            android:text="D) 2010"/>
 
      </RadioGroup>
     <Button
@@ -67,7 +67,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="Next" />
+        android:text="Next"
+        android:backgroundTint="@color/rouge"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -80,7 +81,7 @@
             android:layout_height="29dp"
             android:layout_marginTop="40dp"
             android:gravity="center"
-            app:srcCompat="@drawable/reg"
+            app:srcCompat="@drawable/netflix"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="56dp" />
     </LinearLayout>

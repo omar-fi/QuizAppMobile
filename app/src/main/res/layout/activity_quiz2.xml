@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".quiz1"
     android:orientation="vertical"
-    android:layout_margin="20dp">
+    android:background="@color/black">
     <TextView
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
@@ -15,51 +15,58 @@
         android:text="Quiz2"
         android:gravity="center"
         android:textSize="20dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/qq2"
+        android:src="@drawable/n2"
         android:layout_marginBottom="2dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Quel est le test proposé par Alan Turing pour évaluer l'intelligence d'une machine ?"
+        android:text="Dans quelle série Netflix trouve-t-on le personnage Eleven ?"
         android:gravity="center"
         android:textSize="19dp"
         android:textStyle="bold"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"/>
     <RadioGroup
         android:id="@+id/rg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <RadioButton
         android:id="@+id/rb1"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A) Test de capacité de calcul"/>
+        android:text="A) The Umbrella Academy"/>
     <RadioButton
         android:id="@+id/rb2"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="B) Test de Turing"/>
+        android:text="B) Dark"/>
 
         <RadioButton
+            android:textColor="@color/white"
             android:id="@+id/rb3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="C) Test de reconnaissance de formes"/>
+            android:text="C) Stranger Things"/>
         <RadioButton
+            android:textColor="@color/white"
             android:id="@+id/rb4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="D) Test de logique formelle"/>
+            android:text="D) Locke et Key"/>
     </RadioGroup>
     <Button
+        android:backgroundTint="@color/rouge"
         android:id="@+id/bNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -76,7 +83,7 @@
             android:layout_height="58dp"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            app:srcCompat="@drawable/reg"
+            app:srcCompat="@drawable/netflix"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="56dp" />
     </LinearLayout>

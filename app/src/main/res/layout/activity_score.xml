@@ -8,7 +8,7 @@
     tools:context=".score"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/sc">
+    android:background="@color/black">
 
     <TextView
         android:id="@+id/tv"
@@ -52,6 +52,7 @@
         android:columnCount="2">
 
         <Button
+            android:backgroundTint="@color/rouge"
             android:id="@+id/b1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -59,11 +60,12 @@
             android:text="Log Out" />
 
         <Button
+            android:backgroundTint="@color/rouge"
             android:id="@+id/b2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="Try Again" />
+            android:text="Map" />
     </GridLayout>
 
 </LinearLayout>
